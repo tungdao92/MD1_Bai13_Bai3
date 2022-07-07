@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function duyetMang() {
+        let input= prompt('Nhập tên')
+        let a=['Polaris',' Aldebaran',' Deneb', 'Vega','Altair',' Dubhe ',' Regulus'];
+        let b=['Ursa', 'Minor',' Tarurus', 'Cygnus','Lyra', 'Aquila', 'Ursa', 'Major' ,'Leo'];
+            if (a.indexOf(input)!==-1){
+                b.unshift(input)
+                alert('Bạn đã thêm vào chuỗi' + b)
+            }else {
+                alert('Chúng ta ko thuộc về nhau')
+            }
+
+    } duyetMang()
+
+</script>
+
+</body>
+</html>
